@@ -35,6 +35,19 @@
       }
     }
 
+    .carousel-control-next-icon:after
+    {
+      content: '>';
+      font-size: 25px;
+      color: black;
+    }
+
+    .carousel-control-prev-icon:after {
+      content: '<';
+      font-size: 25px;
+      color: black;
+    }
+
   </style>
 </head>
 <body>
@@ -179,14 +192,103 @@
             <p><strong>October 2022 – July 2023</strong></p>
             <p><strong>Description:</strong> E-Store Computer Center is a system aims to address customers IT needs by providing a comprehensive selection of computer products in-store and online. This system can promote, and manage computer or laptop purchases, provide reports, and generate billing.</p>
             <p><strong>Languages:</strong> Java, JSP, Servlets, MySQL, CSS, JavaScript, Bootstrap</p>
+            <!-- Button trigger for Final Year Project modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#finalYearProjectModal">
+              View Details
+            </button>
           </div>
         </div>
+        <!-- Modal for Final Year Project -->
+        <div class="modal fade" id="finalYearProjectModal" tabindex="-1" role="dialog" aria-labelledby="finalYearProjectModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="finalYearProjectModalLabel">Final Year Project</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div id="finalYearProjectCarousel" class="carousel slide" data-ride="carousel">
+                  <center>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="final_year_project_image1.jpg" class="d-block w-100" alt="Final Year Project Image 1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="final_year_project_image2.jpg" class="d-block w-100" alt="Final Year Project Image 2">
+                      </div>
+                      <!-- Add more carousel items with images -->
+                    </div>
+                  </center>
+                  
+                  <a class="carousel-control-prev" href="#finalYearProjectCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#finalYearProjectCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="card mb-4">
           <div class="card-body">
             <h5 class="card-title">Assignment Project – Hostel Management System</h5>
             <p><strong>April 2022 - July 2022</strong></p>
             <p><strong>Description:</strong> The Hostel Management System is a system that was designed to manage college students’ residence more efficiently at the university hostel. It is supposed to keep track of all hostel operations, such as applying room, complaints, and electronics devices registration.</p>
             <p><strong>Languages:</strong> Java, JSP, Servlets, MySQL, CSS, JavaScript</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#HostelManagementProjectModal">
+              View Details
+            </button>
+          </div>
+        </div>
+
+        <!-- Modal for Hostel Management System -->
+        <div class="modal fade" id="HostelManagementProjectModal" tabindex="-1" role="dialog" aria-labelledby="HostelManagementProjectModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="HostelManagementProjectModalLabel">Hostel Management System</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div id="HostelManagementSystemCarousel" class="carousel slide" data-ride="carousel">
+                  <center>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="final_year_project_image1.jpg" class="d-block w-100" alt="Hostel Management System Image 1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="final_year_project_image2.jpg" class="d-block w-100" alt="Hostel Management System Image 2">
+                      </div>
+                      <!-- Add more carousel items with images -->
+                    </div>
+                  </center>
+                  
+                  <a class="carousel-control-prev" href="#HostelManagementSystemCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#HostelManagementSystemCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
           </div>
         </div>
         <div class="card mb-4">
@@ -195,6 +297,49 @@
             <p><strong>April 2022 – July 2022</strong></p>
             <p><strong>Description:</strong> This project assignment aims to instruct students in building a basic website, incorporating functionalities for creating, retrieving, updating, and deleting data. By integrating these essential functions students will gain practical experience in web development and database management.</p>
             <p><strong>Languages:</strong> Java, JSP, Servlets, MySQL, CSS, JavaScript</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#SistemTempahanRubberStampModal">
+              View Details
+            </button>
+          </div>
+        </div>
+        <!-- Modal for Sistem Penempahan Rubber Stamp -->
+        <div class="modal fade" id="SistemTempahanRubberStampModal" tabindex="-1" role="dialog" aria-labelledby="SistemTempahanRubberStampModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="SistemTempahanRubberStampModalLabel">Sistem Penempahan Rubber Stamp</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div id="SistemPenempahanRubberStampCarousel" class="carousel slide" data-ride="carousel">
+                  <center>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="final_year_project_image1.jpg" class="d-block w-100" alt="Sistem Penempahan Rubber Stamp Image 1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="final_year_project_image2.jpg" class="d-block w-100" alt="Sistem Penempahan Rubber Stamp Image 2">
+                      </div>
+                      <!-- Add more carousel items with images -->
+                    </div>
+                  </center>
+                  
+                  <a class="carousel-control-prev" href="#SistemPenempahanRubberStampCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#SistemPenempahanRubberStampCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
