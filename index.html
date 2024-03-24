@@ -19,7 +19,9 @@
     nav{
       font-size: 16px;
     }
-
+#about {
+  margin-top: 55px; /* Adjust the value as needed */
+}
     .about-text {
       margin-right: 20px; /* To create a gap between text and image */
     }
@@ -49,7 +51,7 @@
   </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">My Portfolio</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -138,29 +140,33 @@
 
 <section id="experience" class="py-5 bg-light">
   <div class="container">
-    <h2 class="text-center mb-4">Experience</h2>
+    <h2 class="text-center mb-5">Experience</h2>
     <div class="row">
       <div class="col-lg-12">
         <div class="experience-item mb-4">
           <h3>Buttonwood smartLogistics Sdn Bhd, Selangor | Software Engineer</h3>
           <p><strong>August 2023 – Current</strong></p>
-          <strong>Frontend Developer:</strong>
-          <ul>
-            <li>Tasked with creating visually appealing and interactive user interfaces. This involves turning design mockups into code using ASP.NET, CSS, and JavaScript.</li>
-            <li>Responsible for redesigning User Experience and User Interface for an existing system using the Bootstrap framework.</li>
-          </ul>
-          <strong>Backend Developer:</strong>
-          <ul>
-            <li>Writing or updating SQL queries within functions using VB.NET.</li>
-            <li>Debugging code to ensure its smooth operation.</li>
-            <li>Working extensively with databases, such as Microsoft SQL Server, to design and optimize database structures, write efficient queries, and maintain data integrity.</li>
-          </ul>
-          <strong>Support System:</strong>
-          <ul>
-            <li>Offering user assistance and guidance to help users resolve issues, answer questions, and navigate products or services effectively.</li>
-            <li>Resolving user-reported issues by debugging code.</li>
-            <li>Keeping users informed about product updates, patches, and maintenance activities to ensure they are aware of changes, improvements, and fixes.</li>
-          </ul>
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Full Stack Developer:</h5>
+              <ul class="experience-list">
+                <li>Tasked with creating visually appealing and interactive user interfaces. This involves turning design mockups into code using ASP.NET, CSS, and JavaScript.</li>
+                <li>Responsible for redesigning User Experience and User Interface for an existing system using the Bootstrap framework.</li>
+                <li>Writing or updating SQL queries within functions using VB.NET.</li>
+                <li>Debugging code to ensure its smooth operation.</li>
+                <li>Working extensively with databases, such as Microsoft SQL Server, to design and optimize database structures, write efficient queries, and maintain data integrity.</li>
+                <li>Involving in a new project and modifying and improving some features of a current system in response to a new client's requirements.</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h5>Support System:</h5>
+              <ul class="experience-list">
+                <li>Offering user assistance and guidance to help users resolve issues, answer questions, and navigate products or services effectively.</li>
+                <li>Resolving user-reported issues by debugging code.</li>
+                <li>Keeping users informed about product updates, patches, and maintenance activities to ensure they are aware of changes, improvements, and fixes.</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
